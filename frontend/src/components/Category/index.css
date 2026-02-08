@@ -1,0 +1,214 @@
+
+@media screen and (max-width: 576px){
+.FeaturesCardContainerCategoryPage{
+    background-color: #edebeb;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.FeaturesCardDetailsCategoryPage{
+    background-color: #fff;
+    min-height: 50vh;
+    width: 85vw;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FeaturesCardDetailsCategoryPage:hover{
+    box-shadow: 0px 0px 5px 0px green;
+}
+
+.FeaturesImgPage{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 24px;
+    align-self: center;
+}
+
+.CategoryPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    text-align: center;
+    padding: 5px;
+}
+
+.CategoryPageIcon{
+    color: gold;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 899px){
+    .FeaturesCardContainerCategoryPage{
+    background-color: #edebeb;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.FeaturesCardDetailsCategoryPage{
+    background-color: #fff;
+    min-height: 50vh;
+    width: 85vw;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FeaturesCardDetailsCategoryPage:hover{
+    box-shadow: 0px 0px 5px 0px green;
+}
+
+.FeaturesImgPage{
+    height: 300px;
+    width: 300px;
+    border-radius: 24px;
+}
+
+.CategoryPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    min-height: 30vh;
+}
+
+.CategoryPageIcon{
+    color: gold;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+    .FeaturesCardContainerCategoryPage{
+    background-color: #edebeb;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.FeaturesCardDetailsCategoryPage{
+    background-color: #fff;
+    min-height: 50vh;
+    width: 85vw;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FeaturesCardDetailsCategoryPage:hover{
+    box-shadow: 0px 0px 5px 0px green;
+}
+
+.FeaturesImgPage{
+    height: 300px;
+    width: 300px;
+    border-radius: 24px;
+}
+
+.CategoryPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    min-height: 30vh;
+}
+
+.CategoryPageIcon{
+    color: gold;
+}
+}
+
+@media screen and (min-width: 1701px){
+    .FeaturesCardContainerCategoryPage{
+    background-color: #edebeb;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.FeaturesCardDetailsCategoryPage{
+    background-color: #fff;
+    min-height: 50vh;
+    width: 85vw;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FeaturesCardDetailsCategoryPage:hover{
+    box-shadow: 0px 0px 5px 0px green;
+}
+
+.FeaturesImgPage{
+    min-height: 500px;
+    max-width: 500px;
+    border-radius: 24px;
+}
+
+.CategoryPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    min-height: 30vh;
+}
+
+.CategoryPage p{
+    font-size: 60px;
+}
+.CategoryPageIcon{
+    color: gold;
+    font-size: 40px;
+}
+}

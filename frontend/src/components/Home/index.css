@@ -1,0 +1,1506 @@
+@media screen and (max-width: 576px){
+    .FeaturesImgProfile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    align-self: center;
+}
+.FeaturesReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeContainer1{
+    min-height: 100vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.FeaturesCardContainerReviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.HomeContainer2{
+    background-color: white;
+    height: 60vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.VegImage{
+   display: none;
+}
+
+.HomeContainer3{
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.HomeText1{
+    text-align: center;
+    font-size: 25px;
+    color: #1b1c1b;
+}
+
+.HomeText2{
+    color: #666967;
+    text-align: center;
+    font-size: 15px;
+}
+
+.HomeSpan1{
+    color:green;
+}
+
+.FruitsImage{
+    display: none;
+}
+
+.ShopBtnHome{
+    background-color: transparent;
+    height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.ShopBtnHome:hover{
+    background-color: green;
+    cursor: pointer;
+    height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.FeaturesContainer{
+    background-color: #edebeb;
+    min-height: 30vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px green;
+    animation: borderLight 3s 0s infinite alternate;
+}
+
+@keyframes borderLight{
+    0%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    20%{
+        box-shadow: 0px 0px 10px 0px gold;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px green;
+    }
+}
+
+.FeaturesContainerProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    border: 2px dotted black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+}
+
+.FeaturesContainerProducts button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    animation: FeaturesContainerProductsBtn 2s 1s infinite alternate;
+}
+
+@keyframes FeaturesContainerProductsBtn{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.FeaturesContainerProducts button:hover{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.FeaturesCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    /*animation: FeaturesCardContainerKey 2s 1s  2 alternate;*/
+}
+
+@keyframes FeaturesCardContainerKey{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.FeaturesCardContainerCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.FeaturesContainer h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.FeaturesTitle{
+    background-color: green;
+    color: #ffffff;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px dotted black;
+    animation: FeaturesLight 2s 2s infinite alternate;
+}
+
+@keyframes FeaturesLight {
+    0%{
+        border: 2px dotted black;
+    }
+    21%{
+        border: 2px dashed yellow;
+    }
+    50%{
+        border: 2px dotted red;
+    }
+    100%{
+        border: 2px dashed white;
+    }
+}
+
+.FeaturesCardDetailsCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    min-height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetailsCategory:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    min-height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetails:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesBorder{
+    border: 1.5px solid grey;
+    width: 75vw;
+    padding: 10px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes FeaturesBorderIdeal{
+    0%{
+        box-shadow: 0px 0px 10px 0px green;
+
+    }
+    21%{
+        box-shadow: 0px 0px 10px 0px orange;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+}
+
+.FeaturesImg{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.FeaturesCardDetailsCategory h1{
+    font-size: 20px;
+}
+
+.FeaturesCardDetailsCategory p{
+    font-size: 14px;
+    color: #7d7574;
+}
+
+.FeaturesCardDetailsCategory button{
+    font-size: 20px;
+    background-color: transparent;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.FeaturesCardDetailsCategory button:hover{
+    font-size: 20px;
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.FeaturesBorder h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.FeaturesBorder p{
+    font-size: 14px;
+    color: #7d7574;
+    text-align: center;
+}
+
+.FeaturesBorder button{
+    background-color: transparent;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+}
+
+.FeaturesBorder button:hover{
+    background-color: green;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 899px){
+.FeaturesImgProfile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    align-self: center;
+}
+.FeaturesReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeContainer1{
+    min-height: 100vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.HomeContainer2{
+    background-color: white;
+    height: 60vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.VegImage{
+   display: none;
+}
+
+.HomeContainer3{
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.HomeText1{
+    text-align: center;
+    font-size: 25px;
+    color: #1b1c1b;
+}
+
+.HomeText2{
+    color: #666967;
+    text-align: center;
+    font-size: 15px;
+}
+
+.HomeSpan1{
+    color:green;
+}
+
+.FruitsImage{
+    display: none;
+}
+
+.ShopBtnHome{
+    background-color: transparent;
+    height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.ShopBtnHome:hover{
+    background-color: green;
+    cursor: pointer;
+    height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.FeaturesContainer{
+    background-color: #edebeb;
+    min-height: 30vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px green;
+    animation: borderLight 3s 0s infinite alternate;
+}
+
+@keyframes borderLight{
+    0%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    20%{
+        box-shadow: 0px 0px 10px 0px gold;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px green;
+    }
+}
+
+.FeaturesContainerProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    border: 2px dotted black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+}
+
+.FeaturesContainerProducts button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    animation: FeaturesContainerProductsBtn 2s 1s infinite alternate;
+}
+
+@keyframes FeaturesContainerProductsBtn{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.FeaturesContainerProducts button:hover{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.FeaturesCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    /*animation: FeaturesCardContainerKey 2s 1s  2 alternate;*/
+}
+.FeaturesCardContainerReviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+@keyframes FeaturesCardContainerKey{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.FeaturesCardContainerCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.FeaturesContainer h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.FeaturesTitle{
+    background-color: green;
+    color: #ffffff;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px dotted black;
+    animation: FeaturesLight 2s 2s infinite alternate;
+}
+
+@keyframes FeaturesLight {
+    0%{
+        border: 2px dotted black;
+    }
+    21%{
+        border: 2px dashed yellow;
+    }
+    50%{
+        border: 2px dotted red;
+    }
+    100%{
+        border: 2px dashed white;
+    }
+}
+
+.FeaturesCardDetailsCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    min-height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetailsCategory:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    min-height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetails:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesBorder{
+    border: 1.5px solid grey;
+    width: 75vw;
+    padding: 10px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes FeaturesBorderIdeal{
+    0%{
+        box-shadow: 0px 0px 10px 0px green;
+
+    }
+    21%{
+        box-shadow: 0px 0px 10px 0px orange;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+}
+
+.FeaturesImg{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.FeaturesCardDetailsCategory h1{
+    font-size: 20px;
+}
+
+.FeaturesCardDetailsCategory p{
+    font-size: 14px;
+    color: #7d7574;
+}
+
+.FeaturesCardDetailsCategory button{
+    font-size: 20px;
+    background-color: transparent;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.FeaturesCardDetailsCategory button:hover{
+    font-size: 20px;
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.FeaturesBorder h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.FeaturesBorder p{
+    font-size: 14px;
+    color: #7d7574;
+    text-align: center;
+}
+
+.FeaturesBorder button{
+    background-color: transparent;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+}
+
+.FeaturesBorder button:hover{
+    background-color: green;
+    height: 5.5vh;
+    min-width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 900px){
+.HomeContainer1{
+    min-height: 100vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.HomeContainer2{
+    background-color: white;
+    height: 60vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.VegImage{
+    height: 60vh;
+    width: 30vw;
+}
+
+.HomeContainer3{
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: HomeContainer3Key 1s 1s 2 alternate;
+}
+
+@keyframes HomeContainer3Key{
+    from {
+        transform: translateY(50px)
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.HomeText1{
+    text-align: center;
+    font-size: 25px;
+    color: #1b1c1b;
+}
+
+.HomeText2{
+    color: #666967;
+    text-align: center;
+    font-size: 15px;
+}
+
+.HomeSpan1{
+    color:green;
+}
+
+.FruitsImage{
+    height: 40vh;
+    width:25vw;
+    align-self: center;
+}
+
+.ShopBtnHome{
+    background-color: transparent;
+    height: 8vh;
+    width: 10vw;
+    background-size: cover;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.ShopBtnHome:hover{
+    background-color: green;
+    cursor: pointer;
+    height: 8vh;
+    width: 10vw;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.FeaturesContainer{
+    background-color: #edebeb;
+    min-height: 30vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px green;
+    animation: borderLight 3s 0s infinite alternate;
+}
+
+@keyframes borderLight{
+    0%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    20%{
+        box-shadow: 0px 0px 10px 0px gold;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px green;
+    }
+}
+
+.FeaturesContainerProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    border: 2px dotted black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+}
+
+.FeaturesContainerProducts button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    animation: FeaturesContainerProductsBtn 2s 1s infinite alternate;
+}
+
+@keyframes FeaturesContainerProductsBtn{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.FeaturesContainerProducts button:hover{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.FeaturesCardContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    /*animation: FeaturesCardContainerKey 2s 1s  2 alternate;*/
+}
+.FeaturesCardContainerReviews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    overflow-x: scroll;
+    width: 90vw;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(green, orange);
+    border-radius: 10px;
+    cursor: pointer;
+}
+@keyframes FeaturesCardContainerKey{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.FeaturesCardContainerCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.FeaturesContainer h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.FeaturesTitle{
+    background-color: green;
+    color: #ffffff;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px dotted black;
+    animation: FeaturesLight 2s 2s infinite alternate;
+}
+
+@keyframes FeaturesLight {
+    0%{
+        border: 2px dotted black;
+    }
+    21%{
+        border: 2px dashed yellow;
+    }
+    50%{
+        border: 2px dotted red;
+    }
+    100%{
+        border: 2px dashed white;
+    }
+}
+
+.FeaturesCardDetailsCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetailsCategory:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    min-height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetails:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+.FeaturesImgProfile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    align-self: center;
+}
+.FeaturesReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FeaturesBorder{
+    border: 1.5px solid grey;
+    width: 18vw;
+    padding: 10px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes FeaturesBorderIdeal{
+    0%{
+        box-shadow: 0px 0px 10px 0px green;
+
+    }
+    21%{
+        box-shadow: 0px 0px 10px 0px orange;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+}
+
+.FeaturesImg{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.FeaturesCardDetailsCategory h1{
+    font-size: 20px;
+}
+
+.FeaturesCardDetailsCategory p{
+    font-size: 14px;
+    color: #7d7574;
+}
+
+.FeaturesCardDetailsCategory button{
+    font-size: 20px;
+    background-color: transparent;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.FeaturesCardDetailsCategory button:hover{
+    font-size: 20px;
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.FeaturesBorder h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.FeaturesBorder p{
+    font-size: 14px;
+    color: #7d7574;
+    text-align: center;
+}
+
+.FeaturesBorder button{
+    background-color: transparent;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+}
+
+.FeaturesBorder button:hover{
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 1701px){
+::-webkit-scrollbar{
+    width: 15px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(green, orange);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.FeaturesImgProfile{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    align-self: center;
+}
+.FeaturesReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeContainer1{
+    min-height: 100vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.HomeContainer2{
+    background-color: white;
+    height: 60vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.VegImage{
+    height: 60vh;
+    width: 30vw;
+}
+
+.HomeContainer3{
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: HomeContainer3Key 1s 1s 2 alternate;
+}
+
+@keyframes HomeContainer3Key{
+    from {
+        transform: translateY(50px)
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.HomeText1{
+    text-align: center;
+    font-size: 60px;
+    color: #1b1c1b;
+}
+
+.HomeText2{
+    color: #666967;
+    text-align: center;
+    font-size: 40px;
+}
+
+.HomeSpan1{
+    color:green;
+}
+
+.FruitsImage{
+    height: 40vh;
+    width:25vw;
+    align-self: center;
+}
+
+.ShopBtnHome{
+    background-color: transparent;
+    min-height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: green;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.ShopBtnHome:hover{
+    background-color: green;
+    cursor: pointer;
+    min-height: 8vh;
+    min-width: 10vw;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.FeaturesContainer{
+    background-color: #edebeb;
+    min-height: 30vh;
+    min-width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px green;
+    animation: borderLight 3s 0s infinite alternate;
+}
+
+@keyframes borderLight{
+    0%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    20%{
+        box-shadow: 0px 0px 10px 0px gold;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px green;
+    }
+}
+
+.FeaturesContainerProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    min-width: 90vw;
+    background-color: green;
+    border: 2px dotted black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+}
+
+.FeaturesContainerProducts button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    animation: FeaturesContainerProductsBtn 2s 1s infinite alternate;
+}
+
+@keyframes FeaturesContainerProductsBtn{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.FeaturesContainerProducts button:hover{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    color: orange;
+    margin-right: 10px;
+}
+
+.FeaturesCardContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    /*animation: FeaturesCardContainerKey 2s 1s  2 alternate;*/
+}
+
+@keyframes FeaturesCardContainerKey{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+.FeaturesCardContainerCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.FeaturesContainer h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.FeaturesTitle{
+    background-color: green;
+    color: #ffffff;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px dotted black;
+    animation: FeaturesLight 2s 2s infinite alternate;
+}
+
+@keyframes FeaturesLight {
+    0%{
+        border: 2px dotted black;
+    }
+    21%{
+        border: 2px dashed yellow;
+    }
+    50%{
+        border: 2px dotted red;
+    }
+    100%{
+        border: 2px dashed white;
+    }
+}
+
+.FeaturesCardDetailsCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetailsCategory:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    height: 52vh;
+    border-radius: 6px;
+}
+
+.FeaturesCardDetails:hover{
+    box-shadow: 0px 0px 10px 0px green;
+    cursor: pointer;
+    animation: FeaturesBorderIdeal 1s 1s infinite alternate;
+}
+
+.FeaturesBorder{
+    border: 1.5px solid grey;
+    width: 18vw;
+    padding: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes FeaturesBorderIdeal{
+    0%{
+        box-shadow: 0px 0px 10px 0px green;
+
+    }
+    21%{
+        box-shadow: 0px 0px 10px 0px orange;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 0px red;
+    }
+    100%{
+        box-shadow: 0px 0px 10px 0px blue;
+    }
+}
+
+.FeaturesImg{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.FeaturesCardDetailsCategory h1{
+    font-size: 40px;
+}
+
+.FeaturesCardDetailsCategory p{
+    font-size: 24px;
+    color: #7d7574;
+}
+
+.FeaturesCardDetailsCategory button{
+    background-color: transparent;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.FeaturesCardDetailsCategory button:hover{
+    font-size: 25px;
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    align-self: flex-start;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+
+.FeaturesBorder h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.FeaturesBorder p{
+    font-size: 24px;
+    color: #7d7574;
+    text-align: center;
+}
+
+.FeaturesBorder button{
+    background-color: transparent;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 25px;
+}
+
+.FeaturesBorder button:hover{
+    background-color: green;
+    height: 5.5vh;
+    width: 10vw;
+    background-size: cover;
+    border: 2px solid green;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+}

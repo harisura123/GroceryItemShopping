@@ -1,0 +1,777 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 576px){
+.LoginContainer{
+    background-color: #333231;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+    align-items: center;
+}
+
+.LoginCardContainer1{
+    height: 30vh;
+    width: 50vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.smallLampImg{
+    mix-blend-mode:difference;
+    height: 150px;
+    width: 150px;
+    align-self:center;
+    cursor: pointer;
+}
+.smallLampImgOn{
+    mix-blend-mode: normal;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    cursor: pointer;
+}
+.LampImg{
+    display: none;
+}
+
+.LightContainer{
+    display: none;
+}
+
+.LightOnBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.para_errorS{
+    color: red;
+}
+
+.LightOffBtn{
+    background-color:#fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    transform: translateX(1.4px);
+    cursor: pointer;
+}
+
+
+.LoginCardContainer2{
+    background-color:#222226;
+    min-height: 80vh;
+    width: 80vw;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #de9631;
+}
+
+.LoginCardContainer2Off{
+    display: none;
+}
+
+.LoginCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.LoginLink{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LoginCard1{
+    background-color: transparent;
+    height: 7vh;
+    width: 70vw;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #de9631;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LoginInput{
+    background-color: transparent;
+    background-size: cover;
+    height: 6vh;
+    width: 75vw;
+    border: 2px solid transparent;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: #de9631;
+    outline: none;
+}
+
+.LoginIcon{
+    display: none;
+}
+
+.LoginCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.WelcomeText{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.LoginCard2 input{
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+}
+
+.LoginCard2 p{
+    color: #de9631;
+}
+
+.LoginBtn{
+    background-color: #de9631;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #de9631;
+    color: #222226;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.LoginBtn:hover{
+    background-color: #222226;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #de9631;
+    color: #de9631;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.AccountPara{
+    color: #fff;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 899px){
+.LoginContainer{
+    background-color: #333231;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+    align-items: center;
+}
+
+.LoginCardContainer1{
+    height: 30vh;
+    width: 50vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.smallLampImg{
+    mix-blend-mode:difference;
+    height: 150px;
+    width: 150px;
+    align-self:center;
+    cursor: pointer;
+
+}
+.smallLampImgOn{
+    mix-blend-mode: normal;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+.LampImg{
+    display: none;
+}
+
+.LightContainer{
+    display: none;
+}
+
+.LightOnBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.para_errorS{
+    color: red;
+}
+
+.LightOffBtn{
+    background-color:#fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    transform: translateX(1.4px);
+    cursor: pointer;
+}
+
+
+.LoginCardContainer2{
+    background-color:#222226;
+    min-height: 80vh;
+    width: 80vw;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #de9631;
+}
+
+.LoginCardContainer2Off{
+    display: none;
+}
+
+.LoginCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.LoginLink{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LoginCard1{
+    background-color: transparent;
+    height: 7vh;
+    width: 70vw;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #de9631;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LoginInput{
+    background-color: transparent;
+    background-size: cover;
+    height: 6vh;
+    width: 75vw;
+    border: 2px solid transparent;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: #de9631;
+    outline: none;
+}
+
+.LoginIcon{
+    display: none;
+}
+
+.LoginCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.WelcomeText{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.LoginCard2 input{
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+}
+
+.LoginCard2 p{
+    color: #de9631;
+}
+
+.LoginBtn{
+    background-color: #de9631;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #de9631;
+    color: #222226;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.LoginBtn:hover{
+    background-color: #222226;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #de9631;
+    color: #de9631;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.AccountPara{
+    color: #fff;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+.smallLampImg{
+    display: none;
+
+}
+.smallLampImgOn{
+    display: none;
+}
+.LoginContainer{
+    background-color: #222226;
+    height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.LoginCardContainer1{
+    height: 70vh;
+    width: 40vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.LampImg{
+    height: 60vh;
+    width: 30vw;
+    align-self: center;
+    mix-blend-mode:lighten;
+    cursor: pointer;
+}
+.smallLampImg{
+    display: none;
+}
+.LightContainer{
+    background-color: #62e6f0;
+    background-size: cover;
+    height: 7vh;
+    width: 8vw;
+    align-self: center;
+    box-shadow: 0px 0px 4px 0px #62e6f0;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LightOnBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.para_errorS{
+    color: red;
+}
+
+.LightOffBtn{
+    background-color:#fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    transform: translateX(1.4px);
+    cursor: pointer;
+}
+
+
+.LoginCardContainer2{
+    background-color:#222226;
+    min-height: 80vh;
+    width: 50vw;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #62e6f0;
+}
+
+.LoginCardContainer2Off{
+    display: none;
+}
+
+.LoginCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.LoginLink{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LoginCard1{
+    background-color: transparent;
+    height: 7vh;
+    width: 30vw;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #62e6f0;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LoginInput{
+    background-color: transparent;
+    background-size: cover;
+    height: 6vh;
+    width: 25vw;
+    border: 2px solid transparent;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: #62e6f0;
+    outline: none;
+}
+
+.LoginIcon{
+    background-color: transparent;
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    font-size: 10px;
+    color: #62e6f0;
+}
+
+.LoginCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.WelcomeText{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.LoginCard2 input{
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+}
+
+.LoginCard2 p{
+    color: #62e6f0;
+}
+
+.LoginBtn{
+    background-color: #62e6f0;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #62e6f0;
+    color: #222226;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.LoginBtn:hover{
+    background-color: #222226;
+    background-size: cover;
+    max-height: 10vh;
+    width: 30vw;
+    border: 2px solid #62e6f0;
+    color: #62e6f0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.AccountPara{
+    color: #fff;
+}
+}
+
+@media screen and (min-width: 1701px){
+.smallLampImg{
+    display: none;
+
+}
+.smallLampImgOn{
+    display: none;
+}
+.LoginContainer{
+    background-color: #222226;
+    height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.LoginCardContainer1{
+    height: 70vh;
+    width: 40vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.LampImg{
+    height: 60vh;
+    width: 30vw;
+    align-self: center;
+    mix-blend-mode:lighten;
+    cursor: pointer;
+}
+.smallLampImg{
+    display: none;
+}
+.LightContainer{
+    background-color: #62e6f0;
+    background-size: cover;
+    height: 7vh;
+    width: 8vw;
+    align-self: center;
+    box-shadow: 0px 0px 4px 0px #62e6f0;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LightOnBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.para_errorS{
+    color: red;
+}
+
+.LightOffBtn{
+    background-color:#fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 4vw;
+    height: 6vh;
+    letter-spacing: 2px;
+    transform: translateX(1.4px);
+    cursor: pointer;
+}
+
+
+.LoginCardContainer2{
+    background-color:#222226;
+    min-height: 80vh;
+    width: 50vw;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #62e6f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginCardContainer2Off{
+    display: none;
+}
+
+.LoginCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginLink{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LoginCard1{
+    background-color: transparent;
+    height: 7vh;
+    width: 30vw;
+    background-size: cover;
+    margin: 10px;
+    border: 2px solid #62e6f0;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LoginInput{
+    background-color: transparent;
+    background-size: cover;
+    height: 6vh;
+    width: 25vw;
+    font-size: 40px;
+    border: 2px solid transparent;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: #62e6f0;
+    outline: none;
+}
+
+.LoginIcon{
+    background-color: transparent;
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    font-size: 10px;
+    color: #62e6f0;
+}
+
+.LoginCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.WelcomeText{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+.LoginCard2 input{
+    height: 3vh;
+    width: 3vw;
+    background-size: cover;
+}
+
+.LoginCard2 p{
+    color: #62e6f0;
+}
+
+.LoginBtn{
+    background-color: #62e6f0;
+    background-size: cover;
+    min-height:5vh;
+    width: 30vw;
+    border: 2px solid #62e6f0;
+    color: #222226;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 40px;
+}
+
+.LoginBtn:hover{
+    background-color: #222226;
+    background-size: cover;
+    min-height: 5vh;
+    width: 30vw;
+    border: 2px solid #62e6f0;
+    color: #62e6f0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 40px;
+}
+
+.AccountPara{
+    color: #fff;
+    font-size: 30px;
+}
+}

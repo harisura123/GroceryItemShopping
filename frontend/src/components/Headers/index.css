@@ -1,0 +1,490 @@
+@media screen and (max-width: 570px){
+.HeaderLiBtn{
+    background-color: transparent;
+    color: green;
+    width: 10vw;
+    background-size: cover;
+    border: none;
+    font-size: 15px;
+}
+.HeaderMainContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    position: fixed;
+}
+.HeaderContainer1{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 11vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.HeaderContainer2{
+    background-color: #fff;
+    height: 10vh;
+    min-width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.HeaderContainer3{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.HeaderContainer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    display: none;
+}
+
+.active-link{
+    color: yellowgreen;
+}
+
+.HeaderButton{
+    display: none;
+}
+
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.IconFaBar{
+    background-color: #dbded9;
+    height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid #dbded9;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: green;
+    cursor: pointer;
+}
+
+.IconFaBar:hover{
+    background-color: green;
+    height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: #dbded9;
+}
+
+.SmallDeviceDetails{
+    background-color: #dbded9;
+    min-height: 30vh;
+    width: 70vw;
+    background-size: cover;
+    border: 2px solid #dbded9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px gray;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.SmallLongDeviceDetails{
+    display: none;
+}
+
+.HeaderLi{
+    list-style: none;
+    background-color: transparent;
+    border-bottom: 1px dashed #41454d;
+    min-height: 3vh;
+    min-width: 50vw;
+    background-size: cover;
+    margin: 5px;
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.HeaderLi:hover{
+    border-bottom: 1px dashed green;
+    min-height: 3vh;
+    min-width: 50vw;
+    background-size: cover;
+    margin: 5px;
+    list-style: none;
+    color: #6e0727;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+}
+@media screen and (min-width:571px) and (max-width: 899px){
+.HeaderLiBtn{
+    background-color: transparent;
+    color: green;
+    width: 10vw;
+    background-size: cover;
+    border: none;
+    font-size: 15px;
+}
+.HeaderMainContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    position: fixed;
+}
+.HeaderContainer1{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 11vh;
+    min-width: 100vw;
+    background-size: cover;
+}
+
+.HeaderContainer2{
+    background-color: #fff;
+    height: 10vh;
+    min-width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.HeaderContainer3{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.HeaderContainer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    display: none;
+}
+
+.active-link{
+    color: yellowgreen;
+}
+
+.HeaderButton{
+    display: none;
+}
+
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.IconFaBar{
+    background-color: #dbded9;
+    height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid #dbded9;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: green;
+    cursor: pointer;
+}
+
+.IconFaBar:hover{
+    background-color: green;
+    height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: #dbded9;
+}
+
+.SmallDeviceDetails{
+    background-color: #dbded9;
+    min-height: 30vh;
+    width: 70vw;
+    background-size: cover;
+    border: 2px solid #dbded9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px gray;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.SmallLongDeviceDetails{
+    display: none;
+}
+
+.HeaderLi{
+    list-style: none;
+    background-color: transparent;
+    border-bottom: 1px dashed #41454d;
+    min-height: 3vh;
+    min-width: 50vw;
+    background-size: cover;
+    margin: 5px;
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.HeaderLi:hover{
+    border-bottom: 1px dashed green;
+    min-height: 3vh;
+    min-width: 50vw;
+    background-size: cover;
+    margin: 5px;
+    list-style: none;
+    color: #6e0727;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+.HeaderLiBtn{
+    background-color: transparent;
+    color: green;
+    width: 10vw;
+    background-size: cover;
+    border: none;
+    font-size: 15px;
+}
+.SmallLongDeviceDetails{
+    display: none;
+}
+.HeaderMainContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    position: fixed;
+}
+.HeaderContainer1{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 11vh;
+    min-width: 100vw;
+    background-size: cover;
+    position: fixed;
+}
+
+.HeaderContainer2{
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderContainer3{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.HeaderContainer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.HeaderLi{
+    padding: 10px;
+    color: #4b4d4a;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.HeaderLi:hover{
+    color: green;
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+.active-link{
+    color: yellowgreen;
+}
+
+.HeaderButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderText{
+    color: #1b1c1b;
+}
+
+.HeaderIconBtn{
+    background-color: #dbded9;
+    height: 5vh;
+    width: 3vw;
+    background-size: cover;
+    border: 1px solid #dbded9;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: green;
+}
+
+.HeaderIconBtn:hover{
+    background-color: green;
+    height: 5vh;
+    width: 3vw;
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    color: #dbded9;
+}
+
+.IconFaBar{
+    display: none;
+}
+}
+
+@media screen and (min-width: 1701px){
+.HeaderLiBtn{
+    background-color: transparent;
+    color: green;
+    width: 10vw;
+    background-size: cover;
+    border: none;
+    font-size: 15px;
+}
+.SmallLongDeviceDetails{
+    display: none;
+}
+.HeaderContainer1{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 11vh;
+    min-width: 95vw;
+    background-size: cover;
+    position: fixed;
+}
+
+.HeaderContainer2{
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderContainer3{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderText{
+    color: #1b1c1b;
+    font-size: 50px;
+}
+
+.HeaderContainer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.HeaderLi{
+    padding: 10px;
+    color: #4b4d4a;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.HeaderLi:hover{
+    color: green;
+    font-size: 51px;
+    text-decoration: underline;
+}
+
+.active-link{
+    color: yellowgreen;
+}
+
+.HeaderButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.HeaderIconBtn{
+    background-color: #dbded9;
+    min-height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid #dbded9;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 35px;
+    color: green;
+}
+
+.HeaderIconBtn:hover{
+    background-color: green;
+    min-height: 5vh;
+    min-width: 3vw;
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 35px;
+    color: #dbded9;
+}
+
+.IconFaBar{
+    display: none;
+}
+}

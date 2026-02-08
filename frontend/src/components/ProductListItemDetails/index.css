@@ -1,0 +1,527 @@
+@media screen and (max-width: 600px){
+    .ProductListItemContainer{
+        min-height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .ProductListItemImg{
+        height: 300px;
+        width: 300px;
+        border-radius: 8px;
+    }
+    
+    .ProductListItemContainer1{
+        background-color: #f5f37a;
+        height: 50vh;
+        width: 90vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 8px;
+        border: 2px solid#edb92b;
+        box-shadow: 0px 0px 5px 0px;
+        line-height: 1%;
+        padding: 10px;
+    }
+    .ListCategoryText{
+        color: #2bdded;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .ListCategoryItemName{
+        color: #461d61;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .ListCategoryRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+    .ListCategoryItemPrice{
+        padding-right: 10px;
+        color: green;
+        font-size: 20px;
+    }
+    .CategoryCartPageIcon{
+        color:#e6205f;
+    }
+    .CartAvailableParaSpan{
+        color: green;
+    }
+    .CartAvailablePara{
+        color: #591280;
+        font-weight: 500;
+    }
+    .CounterBtnContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .CounterMinusBtn{
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .CounterText{
+        color: green;
+        font-weight: 500;
+    }
+    .CounterPlusBtn{
+        font-size: 15px;
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .AddTocartBtn{
+        font-size: 15px;
+        background-color: #67468a;
+        height: 8vh;
+        min-width: 15vw;
+        background-size: cover;
+        border: 2px solid #67468a;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        animation: AddbtnAnimation 2s 1s infinite alternate;
+    }
+    @keyframes AddbtnAnimation{
+        from{
+            transform: scale(0.7);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 899px){
+    .ProductListItemContainer{
+        min-height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .ProductListItemImg{
+        height: 300px;
+        width: 300px;
+        border-radius: 8px;
+    }
+    
+    .ProductListItemContainer1{
+        background-color: #f5f37a;
+        height: 50vh;
+        max-width: 50vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 8px;
+        border: 2px solid#edb92b;
+        box-shadow: 0px 0px 5px 0px;
+        line-height: 1%;
+        padding: 10px;
+    }
+    .ListCategoryText{
+        color: #2bdded;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .ListCategoryItemName{
+        color: #461d61;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .ListCategoryRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+    }
+    .ListCategoryItemPrice{
+        padding-right: 10px;
+        color: green;
+        font-size: 20px;
+    }
+    .CategoryCartPageIcon{
+        color:#e6205f;
+    }
+    .CartAvailableParaSpan{
+        color: green;
+    }
+    .CartAvailablePara{
+        color: #591280;
+        font-weight: 500;
+    }
+    .CounterBtnContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .CounterMinusBtn{
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .CounterText{
+        color: green;
+        font-weight: 500;
+    }
+    .CounterPlusBtn{
+        font-size: 15px;
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .AddTocartBtn{
+        font-size: 15px;
+        background-color: #67468a;
+        height: 8vh;
+        min-width: 15vw;
+        background-size: cover;
+        border: 2px solid #67468a;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        animation: AddbtnAnimation 2s 1s infinite alternate;
+    }
+    @keyframes AddbtnAnimation{
+        from{
+            transform: scale(0.7);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1700px){
+    .ProductListItemContainer{
+        min-height: 100vh;
+        width: 98.5vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .ProductListItemImg{
+        height: 500px;
+        width: 500px;
+        border-radius: 8px;
+    }
+    
+    .ProductListItemContainer1{
+        background-color: #f5f37a;
+        height: 50vh;
+        width: 40vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 8px;
+        border: 2px solid#edb92b;
+        box-shadow: 0px 0px 5px 0px;
+        line-height: 1%;
+        padding: 10px;
+    }
+    .ListCategoryText{
+        color: #2bdded;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .ListCategoryItemName{
+        color: #461d61;
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .ListCategoryRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+    }
+    .ListCategoryItemPrice{
+        padding-right: 10px;
+        color: green;
+        font-size: 20px;
+    }
+    .CategoryCartPageIcon{
+        color:#e6205f;
+    }
+    .CartAvailableParaSpan{
+        color: green;
+    }
+    .CartAvailablePara{
+        color: #591280;
+        font-weight: 500;
+    }
+    .CounterBtnContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .CounterMinusBtn{
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .CounterText{
+        color: green;
+        font-weight: 500;
+    }
+    .CounterPlusBtn{
+        font-size: 15px;
+        background-color: red;
+        max-height: 5vh;
+        max-width: 5vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .AddTocartBtn{
+        font-size: 15px;
+        background-color: #67468a;
+        height: 8vh;
+        min-width: 15vw;
+        background-size: cover;
+        border: 2px solid #67468a;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        animation: AddbtnAnimation 2s 1s infinite alternate;
+    }
+    @keyframes AddbtnAnimation{
+        from{
+            transform: scale(0.7);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1701px){
+    .ProductListItemContainer{
+        min-height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .ProductListItemImg{
+        height: 1000px;
+        width: 1000px;
+        border-radius: 8px;
+    }
+    
+    .ProductListItemContainer1{
+        background-color: #f5f37a;
+        height: 50vh;
+        max-width: 50vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 8px;
+        border: 2px solid#edb92b;
+        box-shadow: 0px 0px 5px 0px;
+        line-height: 1%;
+        padding: 10px;
+    }
+    .ListCategoryText{
+        color: #2bdded;
+        font-size: 70px;
+        font-weight: 500;
+    }
+    .ListCategoryItemName{
+        color: #461d61;
+        font-size: 60px;
+        font-weight: 300;
+    }
+    .ListCategoryRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+    }
+    .ListCategoryItemPrice{
+        padding-right: 10px;
+        color: green;
+        font-size: 50px;
+    }
+    .CategoryCartPageIcon{
+        color:#e6205f;
+        font-size: 40px;
+    }
+    .CartAvailableParaSpan{
+        color: green;
+        font-size: 40px;
+    }
+    .CartAvailablePara{
+        color: #591280;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .CounterBtnContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .CounterMinusBtn{
+        background-color: red;
+        height: 5vh;
+        width: 3vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 45px;
+    }
+    .CounterText{
+        color: green;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .CounterPlusBtn{
+        font-size: 45px;
+        background-color: red;
+        height: 5vh;
+        width: 3vw;
+        background-size: cover;
+        border: 2px solid red;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .AddTocartBtn{
+        font-size: 45px;
+        background-color: #67468a;
+        height: 8vh;
+        min-width: 15vw;
+        background-size: cover;
+        border: 2px solid #67468a;
+        border-radius: 2px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        animation: AddbtnAnimation 2s 1s infinite alternate;
+    }
+    @keyframes AddbtnAnimation{
+        from{
+            transform: scale(0.7);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    
+}

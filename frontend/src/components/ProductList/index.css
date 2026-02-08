@@ -1,0 +1,248 @@
+.LinkPro{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+.ItemLi{
+    list-style: none;
+}
+
+.ItemContainer{
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-height: 50vh;
+    min-width: 80vw;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px gray;
+    margin: 10px;
+}
+
+.ItemImage{
+    height: 140px;
+    width: 160px;
+    align-self: center;
+}
+
+.ItemCard1P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemCard3P{
+    min-height: 10vh;
+    padding-left: 20px;
+}
+
+.ItemCard2P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemName{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.CategoryText{
+    color: orange;
+    font-weight: bold;
+}
+
+.QuantityText{
+    color: black;
+}
+
+.PriceText{
+    color: green;
+    font-weight: bold;
+}
+
+.AddCartBtn{
+    background-color: #fa8ec1;
+    border: 2px solid #7a053c;
+    height: 5vh;
+    min-width: 5vw;
+    background-size: cover;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.AddIcon{
+    color: #fff;
+    padding-right: 5px;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px){
+.ItemLi{
+    list-style: none;
+}
+
+.ItemContainer{
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-height: 50vh;
+    width: 30vw;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px gray;
+    margin: 10px;
+}
+
+.ItemImage{
+    height: 140px;
+    width: 160px;
+    align-self: center;
+}
+
+.ItemCard1P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemCard3P{
+    min-height: 10vh;
+    padding-left: 20px;
+}
+
+.ItemCard2P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemName{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.CategoryText{
+    color: orange;
+    font-weight: bold;
+}
+
+.QuantityText{
+    color: black;
+}
+
+.PriceText{
+    color: green;
+    font-weight: bold;
+}
+
+.AddCartBtn{
+    background-color: #fa8ec1;
+    border: 2px solid #7a053c;
+    height: 5vh;
+    min-width: 5vw;
+    background-size: cover;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.AddIcon{
+    color: #fff;
+    padding-right: 5px;
+}
+}
+
+
+@media screen and (min-width: 900px){
+.ItemLi{
+    list-style: none;
+}
+
+.ItemContainer{
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-height: 50vh;
+    width: 20vw;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px gray;
+    margin: 10px;
+}
+
+.ItemImage{
+    height: 140px;
+    width: 160px;
+    align-self: center;
+}
+
+.ItemCard1P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemCard3P{
+    min-height: 10vh;
+    padding-left: 20px;
+}
+
+.ItemCard2P{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemName{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.CategoryText{
+    color: orange;
+    font-weight: bold;
+}
+
+.QuantityText{
+    color: black;
+}
+
+.PriceText{
+    color: green;
+    font-weight: bold;
+}
+
+.AddCartBtn{
+    background-color: #fa8ec1;
+    border: 2px solid #7a053c;
+    height: 5vh;
+    min-width: 5vw;
+    background-size: cover;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.AddIcon{
+    color: #fff;
+    padding-right: 5px;
+}
+
+}

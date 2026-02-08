@@ -1,0 +1,90 @@
+@media screen and (max-width:600px){
+.tab-btn {
+  background-color: #fff;
+  border: 2px solid green;
+  outline: none;
+  color: green;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  min-height: 5vh;
+  min-width: 14vw;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  color: #fff;
+  background-color: green;
+  border: 2px solid green;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 8px;
+  min-height: 5vh;
+  min-width: 14vw;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 899px){
+.tab-btn {
+  background-color: #fff;
+  border: 2px solid green;
+  outline: none;
+  color: green;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  min-height: 5vh;
+  min-width: 10vw;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  color: #fff;
+  background-color: green;
+  border: 2px solid green;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 8px;
+  min-height: 5vh;
+  min-width: 10vw;
+}
+}
+@media screen and (min-width:900px){
+.tab-btn {
+  background-color: #fff;
+  border: 2px solid green;
+  outline: none;
+  color: green;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  min-height: 5vh;
+  min-width: 10vw;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  color: #fff;
+  background-color: green;
+  border: 2px solid green;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 8px;
+  min-height: 5vh;
+  min-width: 10vw;
+}
+}
