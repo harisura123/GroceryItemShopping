@@ -13,7 +13,7 @@ function ProductListItemDetails(){
     const [list, setList] = useState({})
     const {imageUrl,itemName,category,price,itemId} = list
     useEffect(() => {
-       axios.get('https://groceryshoppingbackend.onrender.com/Product/'+_id)
+       axios.get('https://groceryshoppingbackend.onrender.com/auth/Product/'+_id)
         .then(result => setList(result.data))
         .catch(err => console.log(err))
     })
